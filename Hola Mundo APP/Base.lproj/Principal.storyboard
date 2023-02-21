@@ -23,9 +23,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Texto" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j2R-Pz-ht7">
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Texto" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j2R-Pz-ht7">
                                 <rect key="frame" x="165" y="335" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -46,13 +45,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
+                            <constraint firstItem="j2R-Pz-ht7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="3hh-eZ-Ojx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KZr-3G-1Is" secondAttribute="trailing" constant="146" id="9fy-4y-giW"/>
                             <constraint firstItem="KZr-3G-1Is" firstAttribute="top" secondItem="jI5-ab-Fj9" secondAttribute="bottom" constant="67" id="Bhi-cr-My5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j2R-Pz-ht7" secondAttribute="trailing" constant="152" id="Bs4-9i-FIK"/>
                             <constraint firstItem="jI5-ab-Fj9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="Qh4-rk-PtM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KZr-3G-1Is" secondAttribute="bottom" constant="577" id="R6J-Oj-dvT"/>
                             <constraint firstItem="KZr-3G-1Is" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="177" id="UpL-f0-sh2"/>
                             <constraint firstItem="jI5-ab-Fj9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="ZJ1-hn-I3W"/>
                             <constraint firstItem="KZr-3G-1Is" firstAttribute="top" secondItem="jI5-ab-Fj9" secondAttribute="bottom" constant="67" id="dHd-LT-Amt"/>
+                            <constraint firstItem="j2R-Pz-ht7" firstAttribute="top" secondItem="KZr-3G-1Is" secondAttribute="bottom" constant="96" id="fXF-Xq-MQf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jI5-ab-Fj9" secondAttribute="trailing" constant="128" id="gYb-Ec-p4M"/>
                         </constraints>
                     </view>
